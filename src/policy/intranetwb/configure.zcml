@@ -6,20 +6,22 @@
 
   <five:registerPackage package="." initialize=".initialize" />
   <include file="profiles.zcml" />
+  <include package="Products.LinguaPlone" />
   <include package="cirb.zopemonitoring" />
   <include package="collective.ckeditor" />
   <include package="cirb.footersitemap" />
   <include package="collective.quickupload" />
+  <include package="Products.PloneFormGen" />
+  <include package="qi.portlet.TagClouds" />
+  <include package="collective.easyslider" />
+  <include package="plonetheme.intranetwb" />
+  <include package="collective.galleriffic" />
   <include package="collective.easyslider" />
   <include package="Solgema.fullcalendar" />
   <include package="collective.gallery" />
-  <include package="collective.js.galleriffic" />
   <include package="quintagroup.analytics" />
   <include package="collective.anysurfer" />
-  <include package="qi.portlet.TagClouds" />
-  <include package="Products.PloneFormGen" />
-  <include package="collective.anysurfer" />
   <include package="collective.linguafaq" />
-  <include package="plonetheme.intranetwb" />
+  <include package="collective.js.galleriffic" />
 
 </configure>
